@@ -1,0 +1,20 @@
+
+<h1>Reitit</h1>
+
+{% for route in route_list %}
+	<p>
+		<a href="{{ route.get_absolute_url }}">
+	 	{{route.routename}}
+		</a>
+		|
+		<a href="{{route.get_absolute_url}}/update">Update
+		</a>
+		|
+		<a href="{{route.get_absolute_url}}/delete">Delete
+		</a>
+	</p>
+{% endfor %}
+
+<p>
+	<a href="new">New</a>
+</p>
