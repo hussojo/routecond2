@@ -2,7 +2,7 @@
 
 course website:https://terokarvinen.com/2021/python-web-service-from-idea-to-production-2022/
 
-Simple CRUD application, made with Django.
+Simple CRUD application, made with Django. BETA
 
 I Don't recommend installation (unless you are teacher/student in the course).
 
